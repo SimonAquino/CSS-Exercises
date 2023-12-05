@@ -1,18 +1,19 @@
 body {
-    margin: auto;
-    width: 640px; 
-    padding: 50px; 
-        }
-img {
-    padding: 10px; 
-    margin: auto;
-    border: 5px solid #555;
-    
-  }
+  text-align: center;
+}
 
-  .center {
-    margin: auto;
-    width: 50%;
-    border: 3px solid green;
-    padding: 10px;
-  }
+.center {
+  margin: auto;
+  width: 60%;
+  border: 3px solid #73AD21;
+  padding: 10px;
+  display: inline-block;
+}
+
+img {
+  border: 5px solid #555;
+}
+
+.center p {
+  text-align: left; 
+}
