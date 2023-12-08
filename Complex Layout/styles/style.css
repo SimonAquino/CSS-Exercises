@@ -1,0 +1,108 @@
+body {
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f7f7f7;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 200px 1fr;
+    grid-template-rows: auto 1fr auto;
+    min-height: 100vh;
+}
+
+header {
+    grid-column: span 2;
+    background-color: #e74c3c;
+    color: #fff;
+    padding: 1em;
+    text-align: center;
+}
+
+.sidebar {
+    background-color: #3498db;
+    padding: 1em;
+    color: #fff;
+    position: fixed; 
+    width: 200px; 
+    height: 100%; 
+    overflow-y: auto; 
+}
+
+.sidebar h2 {
+    margin-bottom: 0.5em;
+}
+
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+}
+
+.sidebar li {
+    margin-bottom: 0.5em;
+}
+
+.sidebar a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    display: block;
+    padding: 0.5em 0;
+}
+
+.sidebar a:hover {
+    text-decoration: underline;
+}
+
+main {
+    padding: 1em;
+    margin-left: 300px; 
+}
+
+article {
+    width: 800px;
+    margin: 0 auto;
+}
+
+article h2 {
+    color: #e74c3c;
+}
+
+section {
+    text-align: center;
+}
+
+section img {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 1em;
+}
+
+footer {
+    grid-column: span 2;
+    background-color: #2ecc71;
+    color: #fff;
+    padding: 1em;
+    text-align: center;
+}
+
+@media screen and (max-width: 600px) {
+    .container {
+        grid-template-columns: 1fr;
+        grid-template-rows: auto auto 1fr auto;
+    }
+
+    .sidebar {
+        position: relative; 
+        width: 100%;
+        height: auto;
+    }
+
+    main {
+        grid-row: 3;
+        margin-left: 0;
+    }
+}
