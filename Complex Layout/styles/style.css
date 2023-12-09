@@ -2,7 +2,7 @@ body {
     font-family: 'Comic Sans MS', cursive, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f7f7f7;
+    background-color: #f4eade;
 }
 
 .container {
@@ -14,16 +14,16 @@ body {
 
 header {
     grid-column: span 2;
-    background-color: #e74c3c;
-    color: #fff;
+    background-color: #f2d1ac;
+    color: #594b2d;
     padding: 1em;
     text-align: center;
 }
 
 .sidebar {
-    background-color: #3498db;
+    background-color: #d2b48c;
     padding: 1em;
-    color: #fff;
+    color: #594b2d;
     position: fixed; 
     width: 200px; 
     height: 100%; 
@@ -44,7 +44,7 @@ header {
 }
 
 .sidebar a {
-    color: #fff;
+    color: #594b2d;
     text-decoration: none;
     font-weight: bold;
     display: block;
@@ -66,7 +66,7 @@ article {
 }
 
 article h2 {
-    color: #e74c3c;
+    color: #d2b48c;
 }
 
 section {
@@ -83,8 +83,8 @@ section img {
 
 footer {
     grid-column: span 2;
-    background-color: #2ecc71;
-    color: #fff;
+    background-color: #eadcb3;
+    color: #594b2d;
     padding: 1em;
     text-align: center;
 }

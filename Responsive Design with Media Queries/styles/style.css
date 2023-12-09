@@ -2,11 +2,11 @@ body {
     font-family: 'Comic Sans MS', cursive; 
     margin: 0;
     padding: 0;
-    background-color: #f8f8f8; 
+    background-color: #F5F5DC;
 }
 
 header {
-    background-color: #4CAF50;
+    background-color: #D2B48C;
     color: white;
     text-align: center;
     padding: 1em;
@@ -14,14 +14,14 @@ header {
 
 section {
     margin: 20px;
-    background-color: #ffffff;
+    background-color: #FFF8DC;
     border-radius: 10px; 
     padding: 20px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
 }
 
 footer {
-    background-color: #4CAF50;
+    background-color: #D2B48C;
     color: white;
     text-align: center;
     padding: 1em;
@@ -49,14 +49,12 @@ img {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-
 h1, h2, h3, p {
     color: #333333; 
 }
 
 h2 {
-    border-bottom: 2px solid #4CAF50; 
+    border-bottom: 2px solid #D2B48C;
     padding-bottom: 10px;
     margin-bottom: 20px;
 }
-
